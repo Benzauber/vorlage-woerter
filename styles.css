@@ -2,13 +2,14 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
+      margin-top: 10px;
     }
 
     .card {
       border: 1px solid #ccc;
       padding: 20px;
       margin-bottom: 10px;
-	  border-radius: 8px;
+	    border-radius: 8px;
 
     }
 
@@ -18,7 +19,7 @@
     }
 
     .answer {
-      margin-top: 10px;
+      margin-top: 11px;
       width: 100%;
       padding: 10px;
       box-sizing: border-box;
@@ -50,10 +51,24 @@
       font-size: 18px;
       z-index: 999;
     }
+    .swap-button2 {
+      position: fixed;
+      top: 10px;
+      right: 50px;
+      padding: 10px;
+      background-color: #ff4343;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 18px;
+      z-index: 999;
+    }
 
     @media (max-width: 480px) {
       body {
         padding: 10px;
+        margin-top: 20px;
       }
 
       .card {
