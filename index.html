@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de" >
+<head>
+  <title>Französich</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<div class="card">
+  <div class="question">J'aime ce genre de film.</div>
+  <input type="text" class="answer" data-answer="Ich mag dieses Filmgenre." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Elle aime les films d'amours.</div>
+  <input type="text" class="answer" data-answer="Sie mag Liebesfilme." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Ma grand-mère regarde une comédie.</div>
+  <input type="text" class="answer" data-answer="Meine Grossmutter sieht sich eine Komödie an." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Sur l'affiche, on voit les personnages du film.</div>
+  <input type="text" class="answer" data-answer="Auf dem Plakat sieht man die Filmfiguren." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Je regarde un film d'action.</div>
+  <input type="text" class="answer" data-answer="Ich schaue einen Actionfilm." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Harry Potter est un film fantastique.</div>
+  <input type="text" class="answer" data-answer="Harry Potter ist ein Fantasiefilm." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Ce film est un drame.</div>
+  <input type="text" class="answer" data-answer="Dieser Film ist ein Drama." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Le film est sorti en 2004.</div>
+  <input type="text" class="answer" data-answer="Der Film ist 2004 erschienen." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Ce film dure deux heures.</div>
+  <input type="text" class="answer" data-answer="Dieser Film dauert zwei Stunden." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">L'action du film est ennuyeuse.</div>
+  <input type="text" class="answer" data-answer="Die Handlung des Films ist langweilig." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">C'est un personnage sympathique.</div>
+  <input type="text" class="answer" data-answer="Das ist eine sympathische Figur." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Un voleur malheurex.</div>
+  <input type="text" class="answer" data-answer="Ein unglücklicher Dieb." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Une femme maleureuse.</div>
+  <input type="text" class="answer" data-answer="Eine unglückliche Frau." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">La durée du film est 109 minutes.</div>
+  <input type="text" class="answer" data-answer="Die Dauer des Films ist 109 Minuten." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Tu connais ces acteurs?</div>
+  <input type="text" class="answer" data-answer="Kennst du diese Schauspieler?" placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Ce garçon est gentil.</div>
+  <input type="text" class="answer" data-answer="Dieser Junge ist nett" placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Cette fille est gentille.</div>
+  <input type="text" class="answer" data-answer="Dieses Mädchen ist nett." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Une scène ennuyeuse.</div>
+  <input type="text" class="answer" data-answer="Eine langweilige Szene." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Un film ennuyeux.</div>
+  <input type="text" class="answer" data-answer="Ein langweiliger Film" placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">C'est une scène triste.</div>
+  <input type="text" class="answer" data-answer="Das ist eine traurige Szene." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Il a un caractère méchant.</div>
+  <input type="text" class="answer" data-answer="Er hat einen bösen Charakter." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Le film raconte l'histoire de Clément Mathieu.</div>
+  <input type="text" class="answer" data-answer="Der Film erzählt die Geschichte von Clément Mathieu." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Je recommande ce film aux personnes qui aiment la musique.</div>
+  <input type="text" class="answer" data-answer="Ich empfehle diesen Film Personen, die gerne Musik haben." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Le directeur semble furieux.</div>
+  <input type="text" class="answer" data-answer="Der Direktor wirkt wütend." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Le film se passe dans un internat en 1949.</div>
+  <input type="text" class="answer" data-answer="Der Film spielt 1949 in einem Internat." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">A mon avis, c'est un film magnifique.</div>
+  <input type="text" class="answer" data-answer="Meiner Meinung nach ist das ein wunderbarer Film." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">C'est un grand chien.</div>
+  <input type="text" class="answer" data-answer="Es ist ein grosser Hund." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+<div class="card">
+  <div class="question">Cette une grande poule.</div>
+  <input type="text" class="answer" data-answer="Es ist ein grosses Huhn." placeholder="Geben Sie die Antwort ein" onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+
+
+  <!-- Weitere Karten hier einfügen -->
+
+  <button class="swap-button" onclick="swapQA()"><i class="fas fa-exchange-alt"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
