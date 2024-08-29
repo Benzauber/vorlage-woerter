@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <title>Vorlage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <div class="card">
+    <div class="question">la tête</div>
+    <input type="text" class="answer" data-answer="der Kopf" placeholder="Geben Sie die Antwort ein"
+      onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+  <div class="card">
+    <div class="question">la poitrine</div>
+    <input type="text" class="answer" data-answer="der Arm" placeholder="Geben Sie die Antwort ein"
+      onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+  <div class="card">
+    <div class="question">le derrière</div>
+    <input type="text" class="answer" data-answer="der Hintern" placeholder="Geben Sie die Antwort ein"
+      onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+  <div class="card">
+    <div class="question">la jambe</div>
+    <input type="text" class="answer" data-answer="das Bein" placeholder="Geben Sie die Antwort ein"
+      onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+  <div class="card">
+    <div class="question">le genou</div>
+    <input type="text" class="answer" data-answer="das Knie" placeholder="Geben Sie die Antwort ein"
+      onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+  <div class="card">
+    <div class="question">le pied</div>
+    <input type="text" class="answer" data-answer="der Fuss" placeholder="Geben Sie die Antwort ein"
+      onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+  <div class="card">
+    <div class="question">l'épaule</div>
+    <input type="text" class="answer" data-answer="die Schulter" placeholder="Geben Sie die Antwort ein"
+      onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+  <div class="card">
+    <div class="question">la main</div>
+    <input type="text" class="answer" data-answer="die Hand" placeholder="Geben Sie die Antwort ein"
+      onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+  <div class="card">
+    <div class="question">le coude</div>
+    <input type="text" class="answer" data-answer="der Ellbogen" placeholder="Geben Sie die Antwort ein"
+      onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+  <div class="card">
+    <div class="question">le doigt</div>
+    <input type="text" class="answer" data-answer="der Finger" placeholder="Geben Sie die Antwort ein"
+      onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+  <div class="card">
+    <div class="question">le dos</div>
+    <input type="text" class="answer" data-answer="der Rücken" placeholder="Geben Sie die Antwort ein"
+      onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+  <div class="card">
+    <div class="question">le ventre</div>
+    <input type="text" class="answer" data-answer="der Bauch" placeholder="Geben Sie die Antwort ein"
+      onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+  <div class="card">
+    <div class="question">la hanche</div>
+    <input type="text" class="answer" data-answer="die Hüfte" placeholder="Geben Sie die Antwort ein"
+      onblur="checkAnswer(this, this.getAttribute('data-answer'))">
+  </div>
+  <!-- Weitere Karten hier einfügen -->
+
+  <button class="swap-button" onclick="swapQA()"><i class="fas fa-exchange-alt"></i></button>
+  <button class="swap-button2" onclick="mute()"><i class="fas fa-volume-mute"></i></button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
